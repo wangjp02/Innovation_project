@@ -1,0 +1,60 @@
+/* 初始状态（白底灰字） */
+.delete-patient,
+.add-patient {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff; /* 初始背景颜色为白色 */
+    color: #7c7b7b; /* 初始文本颜色为灰色 */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s, color 0.3s; /* 添加过渡效果 */
+}
+
+/* 鼠标悬停时（红底白字或绿底白字） */
+.delete-patient:hover {
+    background-color: #d52323; /* 删除按钮悬停时的背景颜色（红色） */
+    color: #fff; /* 删除按钮悬停时的文本颜色（白色） */
+}
+
+.add-patient:hover {
+    background-color: #1a934a; /* 增加按钮悬停时的背景颜色（绿色） */
+    color: #fff; /* 增加按钮悬停时的文本颜色（白色） */
+}
+
+#menu ul li{
+    padding: 0 13px;
+    display: block;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.patient-list {
+    list-style: none;
+    padding: 0;
+}
+
+.patient {
+    background-color: #f4f4f4; /* 设置患者项的背景颜色 */
+    margin-bottom: 10px; /* 设置患者项之间的间距 */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+
+/* 样式化底部内容 */
+#foot1 p {
+    margin: 0;
+}
+
+/* 样式化页码切换栏 */
+.black2 {
+    text-align: center;
+    background-color: #f4f4f4; /* 页码切换栏背景颜色 */
+    padding: 10px;
+}
