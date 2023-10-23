@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <a href="Introduction.html" class="button">返回</a>
+    <div>
+        <table border="1" width="1500" height="1000">
+            <!-- caption 表格标题 写在table 里面 th表头单元格标签 表格第一行小标题 默认为加粗 写在tr内部 替换td标签-->
+            <caption id="fontsize"><h1>病人病历</h1></caption>
+            <!-- thead tbody tfoot为表格结构标签 -->
+                <tr >
+                    <th class="case_proof">姓名</th><td class="case_proof1">王五</td>
+                    <th class="case_proof">年龄</th><td class="case_proof1">45</td>
+                    <th class="case_proof">科室</th><td class="case_proof1">乳腺内科</td>
+                </tr>
+            <!-- 合并单元格 按左(左右合并保留最左)按上(上下合并保留最上)合并 且只能在同一结构内合并 rowspan 跨行合并(垂直合并) colspan(水平合并)-->
+           
+            <tr>
+                <th class="case_proof">性别</th><td class="case_proof1">女</td>
+                <th class="case_proof">籍贯</th><td class="case_proof1">湖北武汉</td>
+                <th class="case_proof">门诊号</th><td class="case_proof1">10011</td>
+            </tr>
+            <tr>
+                <th class="case_proof">身份证号</th><td colspan="2" class="case_proof1">xxxxxx</td>
+                <th class="case_proof">出生日期</th><td colspan="2" class="case_proof1">xxxxxx</td>
+            </tr>
+            <tr>
+                <th class="case_proof">居住地址</th><td colspan="2" class="case_proof1">xxxxx</td>
+                <th class="case_proof">入院日期</th><td colspan="2" class="case_proof1" >2023.5.12</td>
+            </tr>
+            <tr>
+                <th class="case_proof">检查结果：</th><td colspan="6" class="case_proof2">xxxxxxxxxxxxxxxxxxxxxx  </td>
+            </tr>
+            <tr>
+                <th class="case_proof">诊断结果:</th><td colspan="6" class="case_proof2">xxxxxxxxxxxxxxxxxxxxxxx  </td>
+            </tr>
+            
+        </table>
+    </div>
+</body>
+</html>

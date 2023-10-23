@@ -1,0 +1,66 @@
+
+*{
+	padding: 0;
+	margin:0;
+	font-size: 14px;
+	font-family: 微软雅黑,sans-serif;
+    
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal;
+}
+fieldset, img{
+	border:0;
+}
+button,input,select,textarea{
+	outline:none;
+	font-size: 14px;
+ 	line-height: 1.531;
+}
+textarea{
+	resize:none;
+}
+a{
+	text-decoration:none;
+	color:#666;
+}
+a:hover {
+ text-decoration: none;
+}
+input, img, select {
+ vertical-align: middle;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+var,
+th,
+em,
+b,
+i{
+	font-style:normal;
+	font-weight:normal;
+}
+strong{font-style:normal;}
+ul {
+	list-style:none;
+}
+
+caption,
+th {
+	text-align:left;
+}
+
+.clear{
+	clear:both;
+}
+.clearfix {
+ overflow: hidden;
+ zoom: 1;
+}
