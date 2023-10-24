@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登陆注册</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/c/font_4298286_0z564dxi3wn.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#" id="registrationForm">
+                <h1>用户注册</h1>
+                <div class="social-container">
+                    <a href="#" class="social" id="wodeyishengButton"><i class="iconfont icon-wodeyisheng"></i></a>
+                    <a href="#" class="social" id="huanzheguanliButton"><i class="iconfont icon-huanzheguanli"></i></a>
+                    <a href="#" class="social" id="guanliyuanButton"><i class="iconfont icon-guanliyuan"></i></a>
+                </div>
+                <div>
+                    <span>请选择以上几种身份注册您的账户</span>
+                    <input type="text" placeholder="用户名">
+                    <input type="password" placeholder="用户密码">
+                    <input type="email" placeholder="邮箱">
+                    <div id="uniqueCodeField" style="display: none;">
+                        <input type="text" placeholder="唯一标识码">
+                    </div>
+                </div>
+                <button id="send_code">发送验证码</button>
+                <input type="email" placeholder="验证码">
+                <button id="registerButton">注册</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>用户登陆</h1>
+                <div class="social-container">
+                    <a href="doctor/doctor.html" class="social"><i class="iconfont icon-wodeyisheng"></i></a>
+                    <a href="patient/patient.html" class="social"><i
+                            class="iconfont icon-huanzheguanli"></i></a>
+                    <a href="admin/admin.html" class="social"><i class="iconfont icon-guanliyuan"></i></a>
+                </div>
+                <span>请选择以上几种方式登陆您的账户</span>
+                <input type="text" placeholder="用户名">
+                <input type="password" placeholder="用户密码">
+                <a href="#">忘记密码？</a>
+                <button>登陆</button>
+            </form>
+        </div>
+        <!-- 侧边栏 -->
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-pannel overlay-left">
+                    <h1>欢迎使用新辅助化疗系统</h1>
+                    <p>已有账号？请进行的登陆</p>
+                    <button class="ghost" id="signIn">登陆</button>
+                </div>
+                <div class="overlay-pannel overlay-right">
+                    <h1>没有账户？</h1>
+                    <p>请注册一个账户</p>
+                    <button class="ghost" id="signUp">注册</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+
+</html>
